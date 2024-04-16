@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="tailwind.css" rel="stylesheet" />
+        <script defer src="index.js"></script>
+        <title>Document</title>
+    </head>
+    <body class="bg-slate-100">
+        <div style="min-height: 64px" class="bg-white shadow shadow-gray-400 ring-1 ring-gray-200/50 ring-offset-4"></div>
+        <div class="flex">
+            <aside class="h-screen flex-shrink-0 bg-zinc-800 md:w-[264px] top-0 fixed"></aside>
+            <aside class="h-screen flex-shrink-0 bg-zinc-800 md:w-[264px]"></aside>
+            <div
+                style="padding: 32px 32px; max-width: 1280px; gap: 32px"
+                class="mx-auto flex w-full flex-col"
+            >
+                <!-- Güncel Bakiye, Müşteriler, Toplam Satış ve Toplam Kazanç -->
+                <div style="gap: 32px" class="grid grid-cols-1 lg:grid-cols-2">
+                    <div style="gap: 24px" class="grid grid-cols-1 md:grid-cols-2 col-span-1">
+                        <div class="flex flex-col justify-between rounded-lg bg-white tracking-wide text-gray-600 shadow shadow-gray-400 ring-1 ring-gray-200/50 ring-offset-4">
+                            <div class="flex flex-row flex-wrap-reverse gap-y-2 gap-x-16 items-center justify-between space-y-0 p-6 pb-2">
+                                <h3 style="min-width: 120px" class="whitespace-nowrap text-lg font-medium tracking-tight">
+                                    Güncel Bakiye
+                                </h3>
+                                <img
+                                    src="public/money.svg"
+                                    alt="current-money"
+                                    class="size-8"
+                                />
+                            </div>
+                            <div class="p-6 flex flex-col gap-1">
+                                <div class="text-3xl font-bold">$109.06</div>
+                                <p class="text-xs text-gray-500">
+                                    +20.1% bir önceki aydan
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between rounded-lg bg-white tracking-wide text-gray-600 shadow shadow-gray-400 ring-1 ring-gray-200/50 ring-offset-4">
+                            <div class="flex flex-row flex-wrap-reverse gap-y-2 gap-x-16 items-center justify-between space-y-0 p-6 pb-2">
+                                <h3 style="min-width: 120px" class="whitespace-nowrap text-lg font-medium tracking-tight">
+                                    Müşteriler
+                                </h3>
+                                <img
+                                    src="public/group.svg"
+                                    alt="current-money"
+                                    class="size-8"
+                                />
+                            </div>
+                            <div class="p-6 flex flex-col gap-1">
+                                <div class="text-3xl font-bold">12</div>
+                                <p class="text-xs text-gray-500">
+                                    +10.4% bir önceki aydan
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between rounded-lg bg-white tracking-wide text-gray-600 shadow shadow-gray-400 ring-1 ring-gray-200/50 ring-offset-4">
+                            <div class="flex flex-row flex-wrap-reverse gap-y-2 gap-x-16 items-center justify-between space-y-0 p-6 pb-2">
+                                <h3 style="min-width: 120px" class="whitespace-nowrap text-lg font-medium tracking-tight">
+                                    Toplam Satış
+                                </h3>
+                                <img
+                                    src="public/sales.svg"
+                                    alt="current-money"
+                                    class="size-8"
+                                />
+                            </div>
+                            <div class="p-6 flex flex-col gap-1">
+                                <div class="text-3xl font-bold">364</div>
+                                <p class="text-xs text-gray-500">
+                                    +36.4% bir önceki aydan
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between rounded-lg bg-white tracking-wide text-gray-600 shadow shadow-gray-400 ring-1 ring-gray-200/50 ring-offset-4">
+                            <div class="flex flex-row flex-wrap-reverse gap-y-2 gap-x-16 items-center justify-between space-y-0 p-6 pb-2">
+                                <h3 style="min-width: 120px" class="whitespace-nowrap text-lg font-medium tracking-tight">
+                                    Toplam Kazanç
+                                </h3>
+                                <img
+                                    src="public/total.svg"
+                                    alt="current-money"
+                                    class="size-8"
+                                />
+                            </div>
+                            <div class="p-6 flex flex-col gap-1">
+                                <div class="text-3xl font-bold">
+                                    $1,204.00
+                                </div>
+                                <p class="text-xs text-gray-500">
+                                    +24.2% bir önceki aydan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="min-height: 480px" class="rounded-lg bg-white tracking-wide text-gray-600 shadow shadow-gray-400 ring-1 ring-gray-200/50 ring-offset-4"
+                    ></div>
+                </div>
+                <!-- Tablo -->
+                <div style="min-height: 480px" class="rounded-lg bg-white tracking-wide text-gray-600 shadow shadow-gray-400 ring-1 ring-gray-200/50 ring-offset-4"
+                ></div>
+            </div>
+        </div>
+    </body>
+</html>
